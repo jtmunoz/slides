@@ -14,6 +14,8 @@ gem 'rake'
 
 gem 'shotgun', '~>0.9.1'
 
+gem 'google-api-client'
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
