@@ -1,3 +1,3 @@
 get '/' do
-	HELLO
+	'HELLO'
 end
