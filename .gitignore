@@ -27,3 +27,4 @@ bin/
 *.swp
 .json
 
+client_secret.json

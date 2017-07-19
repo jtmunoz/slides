@@ -8,7 +8,7 @@ require 'dotenv'
 
 OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'Google Slides API Ruby Quickstart'
-CLIENT_SECRETS_PATH = 'path.env'
+CLIENT_SECRETS_PATH = '.env'
 CREDENTIALS_PATH = File.join(Dir.home, '.credentials',
                              "slides.googleapis.com-ruby-quickstart.yaml")
 SCOPE = Google::Apis::SlidesV1::AUTH_PRESENTATIONS_READONLY
