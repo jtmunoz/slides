@@ -3,11 +3,12 @@ require 'googleauth'
 require 'googleauth/stores/file_token_store'
 
 require 'fileutils'
-
+require 'dotenv'
+Dotenv.load
 
 OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'Google Slides API Ruby Quickstart'
-CLIENT_SECRETS_PATH = 'client_secret.json'
+# CLIENT_SECRETS_PATH = 'client_secret.json'
 CREDENTIALS_PATH = File.join(Dir.home, '.credentials',
                              "slides.googleapis.com-ruby-quickstart.yaml")
 SCOPE = Google::Apis::SlidesV1::AUTH_PRESENTATIONS_READONLY
